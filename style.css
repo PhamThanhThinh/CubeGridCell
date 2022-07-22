@@ -1,0 +1,73 @@
+﻿.wrap {
+    width: 40px;
+    height: 40px;
+}
+
+    .wrap .cube {
+        width: 33%;
+        height: 33%;
+        background-color: #F7BA14;
+        float: left;
+        animation: shrink 1.3s infinite ease-in-out;
+    }
+
+@keyframes shrink {
+
+    0%, 70%, 100% {
+        transform: scale3D(1, 1, 1);
+    }
+
+    35% {
+        transform: scale3D(0, 0, 1);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000C18;
+}
+
+.wrap .cube1 {
+    animation-delay: 0.2s;
+}
+
+.wrap .cube2 {
+    animation-delay: 0.3s;
+}
+
+.wrap .cube3 {
+    animation-delay: 0.4s;
+}
+
+.wrap .cube4 {
+    animation-delay: 0.1s;
+}
+
+.wrap .cube5 {
+    animation-delay: 0.2s;
+}
+
+.wrap .cube6 {
+    animation-delay: 0.3s;
+}
+
+.wrap .cube7 {
+    animation-delay: 0s;
+}
+
+.wrap .cube8 {
+    animation-delay: 0.1s;
+}
+
+.wrap .cube9 {
+    animation-delay: 0.2s;
+}
